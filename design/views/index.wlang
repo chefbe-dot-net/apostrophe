@@ -2,7 +2,7 @@
   <embed src="/carnet/${song}.pdf"
          alt="carnet de chansons"
          width="980"
-         height="470"
+         height="500"
          bgcolor="white"
          wmode="transparent"
          pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
