@@ -1,8 +1,8 @@
 <div class="row">
   <embed src="/carnet/${song}.pdf"
          alt="carnet de chansons"
-         width="900"
-         height="450"
+         width="980"
+         height="470"
          bgcolor="white"
          wmode="transparent"
          pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
