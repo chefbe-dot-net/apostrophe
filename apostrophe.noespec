@@ -1,0 +1,18 @@
+template-info:
+  name: "polygon.noe"
+  version: 0.1.0
+variables:
+  title: Apostrophe
+  url: apostrophe.chefbe.net
+  team:
+    - title:    Owner
+      name:     Apostrophe
+      site:     apostrophe.chefbe.net
+      location: Wavre/Beauvechain/Laouvain-la-Neuve/Sombreffe
+    - title:    Developer
+      name:     Bernard Lambeau
+      site:     blambeau at gmail
+      twitter:  blambeau
+      location: Sombreffe, Belgium
+  bootstrap:
+    responsive: false

@@ -1,0 +1,27 @@
+<div class="row">
+  <embed src="/carnet/${song}.pdf"
+         alt="carnet de chansons"
+         width="900"
+         height="450"
+         bgcolor="white"
+         wmode="transparent"
+         pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
+</div>
+<div class="row">
+  <div class="span7">
+    <h1><a href="/">Apo'Strophe au Rideau Rouge (mai 2012)</a></h1>
+    <ol>
+      *{songs}{
+        <li><a href="/${id}">${name}</a></li>
+      }
+    </ol>
+  </div>
+  <div class="span5">
+    ?{audio}{
+      <audio controls>
+        <source src="mp3/${song}.mp3" type="audio/mpeg">
+        Votre navigateur ne semble pas supporter l'audio, désolé.
+      </audio>
+    }
+  </div>
+</div>
