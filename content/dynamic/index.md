@@ -31,11 +31,11 @@ songs:
 - id: 12-la-boite
   name: La boite
 - id: 13-l-homme-au-bouquet-de-fleurs
-  name: L’homme au bouquet de fleurs
+  name: L’homme au bouquet de fleurs (reprise de Leforestier)
 - id: 14-l-heure-des-comptes
   name: L’heure des comptes
 - id: 15-la-seine
-  name: La seine
+  name: La seine (reprise de Vanessa Paradis et M)
 - id: 16-sous-la-pierre
   name: Sous la pierre
 - id: 17-lullaby
