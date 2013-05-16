@@ -36,4 +36,8 @@
     </div>
     <script>$('.carousel').carousel("next")</script>
   </div>
+  <hr/>
 </div>
+<footer class="row">
+  &copy; Apostrophe 2012-2013 &mdash; Questions? groupe.apostrophe sur gmail.com &mdash; Ce site nécessite un navigateur récent (testé avec <a target="_blank" href="https://www.google.com/intl/en/chrome/browser/">Chrome</a>).
+</footer>
