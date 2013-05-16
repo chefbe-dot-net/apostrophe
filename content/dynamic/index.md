@@ -4,7 +4,7 @@ lang: en
 title: Apostrophe
 description: Apostrophe
 keywords: []
-google: {tracker: ~}
+google: { tracker: 'UA-40949568-2', domain: 'chefbe.net' }
 songs:
 - id: 1-la-page-blanche
   name: La page blanche
