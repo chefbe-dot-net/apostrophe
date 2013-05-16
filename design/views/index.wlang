@@ -1,11 +1,14 @@
 <div class="row">
-  <embed src="/carnet/${song}.pdf"
+  <!-- <embed src="/carnet/${song}.pdf"
          alt="carnet de chansons"
          width="980"
          height="500"
          bgcolor="white"
          wmode="transparent"
-         pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
+         pluginspage="http://www.adobe.com/products/acrobat/readstep2.html"> -->
+   <div id="carnet-image" class="span12">
+     <img src="/carnet/${song}.jpg" width="940px"/>
+   </div>
 </div>
 <div class="row">
   <div class="span6">

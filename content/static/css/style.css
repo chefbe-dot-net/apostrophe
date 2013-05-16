@@ -13,6 +13,12 @@ ol a,
 ol a:visited {
   color: black;
 }
+#carnet-image {
+  padding: 10px 0px;
+}
+#carnet-image img {
+  box-shadow: 3px 3px 3px 1px #888888;
+}
 embed {
   display: block;
   margin: auto;
