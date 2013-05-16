@@ -23,5 +23,17 @@
         Votre navigateur ne semble pas supporter l'audio, désolé.
       </audio>
     }
+    <div id="apostrophe-pictures" class="carousel slide">
+      <div class="carousel-inner">
+        *{pictures}{
+          <div class="item">
+            <img src="/pictures/${id}.jpg"/>
+          </div>
+        }
+      </div>
+      <a class="carousel-control left" href="#apostrophe-pictures" data-slide="prev">&lsaquo;</a>
+      <a class="carousel-control right" href="#apostrophe-pictures" data-slide="next">&rsaquo;</a>
+    </div>
+    <script>$('.carousel').carousel("next")</script>
   </div>
 </div>

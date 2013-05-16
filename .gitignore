@@ -27,3 +27,4 @@ vendor
 vendor/bundle
 content/static/mp3/*
 content/static/carnet/*
+content/static/pictures/*
