@@ -23,8 +23,10 @@ Thumbs.db
 logs/*.log
 tmp/restart.txt
 .bundle
+bundle
 vendor
 vendor/bundle
 content/static/mp3/*
 content/static/carnet/*
 content/static/pictures/*
+scripts/launch.command

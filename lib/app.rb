@@ -4,6 +4,10 @@ require 'helpers'
 class App < Polygon::Base
   helpers Helpers
 
+  SONGS = (Path.dir.parent/("content/static/mp3")).glob("*.mp3").map{|f|
+    f.basename.rm_ext.to_s
+  }
+
   get '/sitemap.xml' do
     content_type "application/xml"
     wlang :sitemap, :locals => sitemap_locals, :layout => false
@@ -13,8 +17,10 @@ class App < Polygon::Base
     wlang :index, :locals => index_locals.merge(song: "cover", audio: false)
   end
 
-  get %r{^/(.*)} do |song|
-    wlang :index, :locals => index_locals.merge(song: song, audio: true)
+  SONGS.each do |song|
+    get "/#{song}" do
+      wlang :index, :locals => index_locals.merge(song: song, audio: true)
+    end
   end
 
 end
